@@ -9,7 +9,7 @@ const getData = async () => {
    renderTable(data)
   }
   // Function to render data into the table
-   async function renderTable(data) {
+   function renderTable(data) {
       const dataList = document.getElementById('dataList');
       data.modelos.forEach(item => {
           const row = document.createElement('tr');
